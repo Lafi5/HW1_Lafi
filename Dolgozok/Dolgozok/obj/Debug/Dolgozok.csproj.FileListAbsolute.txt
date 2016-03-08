@@ -4,3 +4,6 @@ c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\bin\Debug
 c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\bin\Debug\Dolgozok.pdb
 c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\obj\Debug\Dolgozok.exe
 c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\obj\Debug\Dolgozok.pdb
+C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\bin\Debug\Dolgozok.exe.config
+C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\obj\Debug\Dolgozok.exe
+C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\obj\Debug\Dolgozok.pdb
