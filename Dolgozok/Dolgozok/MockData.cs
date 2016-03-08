@@ -11,11 +11,12 @@ namespace Dolgozok
         private static readonly object syncLock = new object();
         private static readonly Random rand = new Random();
         private static List<string> names = new List<string>();
-        private static List<string> jobs = new List<string>();
+        private static List<string> companies = new List<string>();
         private static List<string> addresses = new List<string>();
         private static string nameListFileName = "names.dat";
         private static string jobListFileName = "jobs.dat";
         private static string addressListFileName = "addresses.dat";
+        private static string companyListFileName = "companies.dat";
         private static int minDate = 2000, maxDate = 2030;
          
 
@@ -28,6 +29,20 @@ namespace Dolgozok
             NameFormFile();
             JobFormFile();
             AddressFromFile();
+            CompanyFromFile();
+        }
+
+        private static void CompanyFromFile()
+        {
+            string text = System.IO.File.ReadAllText(companyListFileName);
+            string[] lines = text.Split(
+                new string[] { Environment.NewLine },
+                StringSplitOptions.RemoveEmptyEntries
+                );
+            foreach (string item in lines)
+            {
+                companies.Add(item);
+            }
         }
 
         private static void AddressFromFile()
@@ -64,7 +79,7 @@ namespace Dolgozok
                 );
             foreach (string item in lines)
             {
-                jobs.Add(item);
+                companies.Add(item);
             }
         }
 
@@ -106,7 +121,7 @@ namespace Dolgozok
             string job;
             lock (syncLock)
             {
-                job = jobs.ElementAt(rand.Next(0, jobs.Count));
+                job = companies.ElementAt(rand.Next(0, companies.Count));
             }
             return job;
         }
@@ -119,6 +134,26 @@ namespace Dolgozok
                 date = rand.Next(minDate, maxDate);
             }
             return date;
+        }
+
+        public static int Tulora()
+        {
+            int ora;
+            lock (syncLock)
+            {
+                ora = rand.Next(0, 13);
+            }
+            return ora;
+        }
+
+        public static string Company()
+        {
+            string company;
+            lock (syncLock)
+            {
+                company = companies.ElementAt(rand.Next(0, companies.Count));
+            }
+            return company;
         }
     }
 }

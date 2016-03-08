@@ -7,3 +7,6 @@ c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\obj\Debug
 C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\bin\Debug\Dolgozok.exe.config
 C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\obj\Debug\Dolgozok.exe
 C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\obj\Debug\Dolgozok.pdb
+C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\obj\Debug\Dolgozok.csprojResolveAssemblyReference.cache
+C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\bin\Debug\Dolgozok.exe
+C:\Users\Márk\Documents\HW1_Lafi\Dolgozok\Dolgozok\bin\Debug\Dolgozok.pdb
