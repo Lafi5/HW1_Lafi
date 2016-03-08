@@ -16,6 +16,8 @@ namespace Dolgozok
         private static string nameListFileName = "names.dat";
         private static string jobListFileName = "jobs.dat";
         private static string addressListFileName = "addresses.dat";
+        private static int minDate = 2000, maxDate = 2030;
+         
 
         static MockData()
         {
@@ -107,6 +109,16 @@ namespace Dolgozok
                 job = jobs.ElementAt(rand.Next(0, jobs.Count));
             }
             return job;
+        }
+
+        public static int Date()
+        {
+            int date;
+            lock (syncLock)
+            {
+                date = rand.Next(minDate, maxDate);
+            }
+            return date;
         }
     }
 }
