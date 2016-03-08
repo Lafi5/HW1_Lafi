@@ -1,0 +1,6 @@
+c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\bin\Debug\Dolgozok.exe.config
+c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\obj\Debug\Dolgozok.csprojResolveAssemblyReference.cache
+c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\bin\Debug\Dolgozok.exe
+c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\bin\Debug\Dolgozok.pdb
+c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\obj\Debug\Dolgozok.exe
+c:\users\márk\documents\visual studio 2015\Projects\Dolgozok\Dolgozok\obj\Debug\Dolgozok.pdb
