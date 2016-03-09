@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dolgozok
 {
-    class Kiszervezett : Dolgozo
+    class Kiszervezett : Dolgozo,IComparable<Kiszervezett>
     {
         public string Munkakor { get; set; }
         public string Munkaltato { get; set; }
@@ -27,6 +27,12 @@ namespace Dolgozok
         public override string ToString()
         {
             return Munkaltato + ", " + Nev;
+        }
+
+        public int CompareTo(Kiszervezett other)
+        {
+            int result = Munkaltato.CompareTo(other.Munkaltato);
+            return result;
         }
     }
 }
